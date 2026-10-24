@@ -11,7 +11,7 @@ st.set_page_config(page_title="Crime hotspot clustering", page_icon="🗺️", l
 st.title("Crime hotspot clustering")
 # written on the first website on web
 st.write(
-    "Upload offence locations, check the coordinates, then find hotspots with K-Means, DBSCAN, KNN or Infomap "
+    "Upload offence locations, check the coordinates, then find hotspots with K-Means, DBSCAN, Louvain or Infomap "
     "and compare them on a heatmap and three quality scores."
 )
 # as streamlit handles spacing on its own... so makes 3 tabs 

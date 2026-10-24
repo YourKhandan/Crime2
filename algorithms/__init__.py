@@ -4,11 +4,11 @@ To add a new algorithm: create `my_algo.py` next to these files with NAME, DESCR
 and run(), then add it to the dictionary below. The tabs, parameter widgets, scores and
 heatmaps pick it up automatically.
 """
-from . import dbscan_algo, infomap_algo, kmeans_algo, knn_algo
+from . import dbscan_algo, infomap_algo, kmeans_algo, louvain_algo
 
 ALGORITHMS = {
     kmeans_algo.NAME: kmeans_algo,
     dbscan_algo.NAME: dbscan_algo,
-    knn_algo.NAME: knn_algo,
+    louvain_algo.NAME: louvain_algo,
     infomap_algo.NAME: infomap_algo,
 }
