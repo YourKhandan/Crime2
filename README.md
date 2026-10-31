@@ -4,7 +4,7 @@ A Streamlit app that finds crime hotspots in a file of offence locations, draws 
 on a real map, and scores K-Means, DBSCAN, KNN and Infomap so you can see which fits your data best.
 
 ## Run it
-
+https://crime2-sm-dp.streamlit.app/
 ```bash
 cd crime_hotspot_app
 python -m venv .venv
